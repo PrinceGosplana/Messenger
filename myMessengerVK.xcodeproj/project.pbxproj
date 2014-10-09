@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60ABFADCB66F42ED92948C6D /* libPods-myMessengerVK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9405EE32F01E4DA89BDF7F4F /* libPods-myMessengerVK.a */; };
+		952A75E119DF28F5005D0301 /* bubble & soap.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 952A75E019DF28F5005D0301 /* bubble & soap.ttf */; };
+		952A75E419DFA3C6005D0301 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A75E319DFA3C6005D0301 /* User.m */; };
+		952A75E819E1283A005D0301 /* ListMessengersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A75E719E1283A005D0301 /* ListMessengersViewController.m */; };
+		952A761D19E2DCE4005D0301 /* DetailMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A761C19E2DCE4005D0301 /* DetailMessageViewController.m */; };
+		95A1E60D19DF0F5D00546B4C /* ic_vk_logo_nb.png in Resources */ = {isa = PBXBuildFile; fileRef = 95A1E60B19DF0F5D00546B4C /* ic_vk_logo_nb.png */; };
+		95A1E60E19DF0F5D00546B4C /* ic_vk_logo_nb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95A1E60C19DF0F5D00546B4C /* ic_vk_logo_nb@2x.png */; };
+		95A1E61019DF147600546B4C /* GFSCUS1D.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95A1E60F19DF147600546B4C /* GFSCUS1D.ttf */; };
+		95A1E61419DF196B00546B4C /* thirteen_pixel_fonts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95A1E61319DF196B00546B4C /* thirteen_pixel_fonts.ttf */; };
+		C35F962A19E3FE1700129BAF /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C35F962919E3FE1700129BAF /* DetailTableViewCell.m */; };
+		C3D0A50619DEE65A0003D131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D0A50519DEE65A0003D131 /* main.m */; };
+		C3D0A50919DEE65A0003D131 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D0A50819DEE65A0003D131 /* AppDelegate.m */; };
+		C3D0A50C19DEE65A0003D131 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D0A50B19DEE65A0003D131 /* ViewController.m */; };
+		C3D0A50F19DEE65A0003D131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D0A50D19DEE65A0003D131 /* Main.storyboard */; };
+		C3D0A51119DEE65A0003D131 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D0A51019DEE65A0003D131 /* Images.xcassets */; };
+		C3D0A51419DEE65A0003D131 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D0A51219DEE65A0003D131 /* LaunchScreen.xib */; };
+		C3D0A52019DEE65A0003D131 /* myMessengerVKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D0A51F19DEE65A0003D131 /* myMessengerVKTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3D0A51A19DEE65A0003D131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D0A4F819DEE65A0003D131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D0A4FF19DEE65A0003D131;
+			remoteInfo = myMessengerVK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BE415D3279B4F56B23EEC08 /* Pods-myMessengerVK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myMessengerVK.xcconfig"; path = "Pods/Pods-myMessengerVK.xcconfig"; sourceTree = "<group>"; };
+		9405EE32F01E4DA89BDF7F4F /* libPods-myMessengerVK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myMessengerVK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		952A75E019DF28F5005D0301 /* bubble & soap.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bubble & soap.ttf"; sourceTree = "<group>"; };
+		952A75E219DFA3C6005D0301 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		952A75E319DFA3C6005D0301 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		952A75E619E1283A005D0301 /* ListMessengersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListMessengersViewController.h; sourceTree = "<group>"; };
+		952A75E719E1283A005D0301 /* ListMessengersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListMessengersViewController.m; sourceTree = "<group>"; };
+		952A761B19E2DCE4005D0301 /* DetailMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailMessageViewController.h; sourceTree = "<group>"; };
+		952A761C19E2DCE4005D0301 /* DetailMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailMessageViewController.m; sourceTree = "<group>"; };
+		95A1E60B19DF0F5D00546B4C /* ic_vk_logo_nb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_vk_logo_nb.png; sourceTree = "<group>"; };
+		95A1E60C19DF0F5D00546B4C /* ic_vk_logo_nb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_vk_logo_nb@2x.png"; sourceTree = "<group>"; };
+		95A1E60F19DF147600546B4C /* GFSCUS1D.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GFSCUS1D.ttf; sourceTree = "<group>"; };
+		95A1E61319DF196B00546B4C /* thirteen_pixel_fonts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = thirteen_pixel_fonts.ttf; sourceTree = "<group>"; };
+		C35F962819E3FE1700129BAF /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		C35F962919E3FE1700129BAF /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		C3D0A50019DEE65A0003D131 /* myMessengerVK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMessengerVK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D0A50419DEE65A0003D131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D0A50519DEE65A0003D131 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3D0A50719DEE65A0003D131 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3D0A50819DEE65A0003D131 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3D0A50A19DEE65A0003D131 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3D0A50B19DEE65A0003D131 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3D0A50E19DEE65A0003D131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3D0A51019DEE65A0003D131 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3D0A51319DEE65A0003D131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C3D0A51919DEE65A0003D131 /* myMessengerVKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMessengerVKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D0A51E19DEE65A0003D131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D0A51F19DEE65A0003D131 /* myMessengerVKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMessengerVKTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3D0A4FD19DEE65A0003D131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60ABFADCB66F42ED92948C6D /* libPods-myMessengerVK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D0A51619DEE65A0003D131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FB35EB55F5448FAB3979D8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9405EE32F01E4DA89BDF7F4F /* libPods-myMessengerVK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D0A4F719DEE65A0003D131 = {
+			isa = PBXGroup;
+			children = (
+				C3D0A50219DEE65A0003D131 /* myMessengerVK */,
+				C3D0A51C19DEE65A0003D131 /* myMessengerVKTests */,
+				C3D0A50119DEE65A0003D131 /* Products */,
+				6BE415D3279B4F56B23EEC08 /* Pods-myMessengerVK.xcconfig */,
+				6FB35EB55F5448FAB3979D8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3D0A50119DEE65A0003D131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0A50019DEE65A0003D131 /* myMessengerVK.app */,
+				C3D0A51919DEE65A0003D131 /* myMessengerVKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D0A50219DEE65A0003D131 /* myMessengerVK */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0A50719DEE65A0003D131 /* AppDelegate.h */,
+				C3D0A50819DEE65A0003D131 /* AppDelegate.m */,
+				C3D0A50A19DEE65A0003D131 /* ViewController.h */,
+				C3D0A50B19DEE65A0003D131 /* ViewController.m */,
+				952A75E619E1283A005D0301 /* ListMessengersViewController.h */,
+				952A75E719E1283A005D0301 /* ListMessengersViewController.m */,
+				952A761B19E2DCE4005D0301 /* DetailMessageViewController.h */,
+				952A761C19E2DCE4005D0301 /* DetailMessageViewController.m */,
+				C35F962819E3FE1700129BAF /* DetailTableViewCell.h */,
+				C35F962919E3FE1700129BAF /* DetailTableViewCell.m */,
+				952A75E219DFA3C6005D0301 /* User.h */,
+				952A75E319DFA3C6005D0301 /* User.m */,
+				C3D0A50D19DEE65A0003D131 /* Main.storyboard */,
+				C3D0A51019DEE65A0003D131 /* Images.xcassets */,
+				C3D0A51219DEE65A0003D131 /* LaunchScreen.xib */,
+				C3D0A50319DEE65A0003D131 /* Supporting Files */,
+			);
+			path = myMessengerVK;
+			sourceTree = "<group>";
+		};
+		C3D0A50319DEE65A0003D131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				952A75E019DF28F5005D0301 /* bubble & soap.ttf */,
+				95A1E61319DF196B00546B4C /* thirteen_pixel_fonts.ttf */,
+				95A1E60F19DF147600546B4C /* GFSCUS1D.ttf */,
+				95A1E60B19DF0F5D00546B4C /* ic_vk_logo_nb.png */,
+				95A1E60C19DF0F5D00546B4C /* ic_vk_logo_nb@2x.png */,
+				C3D0A50419DEE65A0003D131 /* Info.plist */,
+				C3D0A50519DEE65A0003D131 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3D0A51C19DEE65A0003D131 /* myMessengerVKTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0A51F19DEE65A0003D131 /* myMessengerVKTests.m */,
+				C3D0A51D19DEE65A0003D131 /* Supporting Files */,
+			);
+			path = myMessengerVKTests;
+			sourceTree = "<group>";
+		};
+		C3D0A51D19DEE65A0003D131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0A51E19DEE65A0003D131 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3D0A4FF19DEE65A0003D131 /* myMessengerVK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D0A52319DEE65A0003D131 /* Build configuration list for PBXNativeTarget "myMessengerVK" */;
+			buildPhases = (
+				51E1EF26EB304B839AB24DD6 /* Check Pods Manifest.lock */,
+				C3D0A4FC19DEE65A0003D131 /* Sources */,
+				C3D0A4FD19DEE65A0003D131 /* Frameworks */,
+				C3D0A4FE19DEE65A0003D131 /* Resources */,
+				C2F6233585404138B8ECE160 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myMessengerVK;
+			productName = myMessengerVK;
+			productReference = C3D0A50019DEE65A0003D131 /* myMessengerVK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3D0A51819DEE65A0003D131 /* myMessengerVKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D0A52619DEE65A0003D131 /* Build configuration list for PBXNativeTarget "myMessengerVKTests" */;
+			buildPhases = (
+				C3D0A51519DEE65A0003D131 /* Sources */,
+				C3D0A51619DEE65A0003D131 /* Frameworks */,
+				C3D0A51719DEE65A0003D131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D0A51B19DEE65A0003D131 /* PBXTargetDependency */,
+			);
+			name = myMessengerVKTests;
+			productName = myMessengerVKTests;
+			productReference = C3D0A51919DEE65A0003D131 /* myMessengerVKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3D0A4F819DEE65A0003D131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Oleksandr Isaiev";
+				TargetAttributes = {
+					C3D0A4FF19DEE65A0003D131 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C3D0A51819DEE65A0003D131 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C3D0A4FF19DEE65A0003D131;
+					};
+				};
+			};
+			buildConfigurationList = C3D0A4FB19DEE65A0003D131 /* Build configuration list for PBXProject "myMessengerVK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3D0A4F719DEE65A0003D131;
+			productRefGroup = C3D0A50119DEE65A0003D131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D0A4FF19DEE65A0003D131 /* myMessengerVK */,
+				C3D0A51819DEE65A0003D131 /* myMessengerVKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3D0A4FE19DEE65A0003D131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A1E61019DF147600546B4C /* GFSCUS1D.ttf in Resources */,
+				95A1E60E19DF0F5D00546B4C /* ic_vk_logo_nb@2x.png in Resources */,
+				952A75E119DF28F5005D0301 /* bubble & soap.ttf in Resources */,
+				C3D0A50F19DEE65A0003D131 /* Main.storyboard in Resources */,
+				C3D0A51419DEE65A0003D131 /* LaunchScreen.xib in Resources */,
+				C3D0A51119DEE65A0003D131 /* Images.xcassets in Resources */,
+				95A1E61419DF196B00546B4C /* thirteen_pixel_fonts.ttf in Resources */,
+				95A1E60D19DF0F5D00546B4C /* ic_vk_logo_nb.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D0A51719DEE65A0003D131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51E1EF26EB304B839AB24DD6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F6233585404138B8ECE160 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-myMessengerVK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3D0A4FC19DEE65A0003D131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952A75E819E1283A005D0301 /* ListMessengersViewController.m in Sources */,
+				952A75E419DFA3C6005D0301 /* User.m in Sources */,
+				C3D0A50C19DEE65A0003D131 /* ViewController.m in Sources */,
+				952A761D19E2DCE4005D0301 /* DetailMessageViewController.m in Sources */,
+				C3D0A50919DEE65A0003D131 /* AppDelegate.m in Sources */,
+				C3D0A50619DEE65A0003D131 /* main.m in Sources */,
+				C35F962A19E3FE1700129BAF /* DetailTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D0A51519DEE65A0003D131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D0A52019DEE65A0003D131 /* myMessengerVKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3D0A51B19DEE65A0003D131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D0A4FF19DEE65A0003D131 /* myMessengerVK */;
+			targetProxy = C3D0A51A19DEE65A0003D131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3D0A50D19DEE65A0003D131 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D0A50E19DEE65A0003D131 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3D0A51219DEE65A0003D131 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D0A51319DEE65A0003D131 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3D0A52119DEE65A0003D131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3D0A52219DEE65A0003D131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3D0A52419DEE65A0003D131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE415D3279B4F56B23EEC08 /* Pods-myMessengerVK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myMessengerVK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3D0A52519DEE65A0003D131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE415D3279B4F56B23EEC08 /* Pods-myMessengerVK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myMessengerVK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3D0A52719DEE65A0003D131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myMessengerVKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myMessengerVK.app/myMessengerVK";
+			};
+			name = Debug;
+		};
+		C3D0A52819DEE65A0003D131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myMessengerVKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myMessengerVK.app/myMessengerVK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3D0A4FB19DEE65A0003D131 /* Build configuration list for PBXProject "myMessengerVK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D0A52119DEE65A0003D131 /* Debug */,
+				C3D0A52219DEE65A0003D131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D0A52319DEE65A0003D131 /* Build configuration list for PBXNativeTarget "myMessengerVK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D0A52419DEE65A0003D131 /* Debug */,
+				C3D0A52519DEE65A0003D131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D0A52619DEE65A0003D131 /* Build configuration list for PBXNativeTarget "myMessengerVKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D0A52719DEE65A0003D131 /* Debug */,
+				C3D0A52819DEE65A0003D131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3D0A4F819DEE65A0003D131 /* Project object */;
+}
