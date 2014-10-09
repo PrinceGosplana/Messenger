@@ -16,7 +16,6 @@
 		95A1E60E19DF0F5D00546B4C /* ic_vk_logo_nb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95A1E60C19DF0F5D00546B4C /* ic_vk_logo_nb@2x.png */; };
 		95A1E61019DF147600546B4C /* GFSCUS1D.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95A1E60F19DF147600546B4C /* GFSCUS1D.ttf */; };
 		95A1E61419DF196B00546B4C /* thirteen_pixel_fonts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95A1E61319DF196B00546B4C /* thirteen_pixel_fonts.ttf */; };
-		C35F962A19E3FE1700129BAF /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C35F962919E3FE1700129BAF /* DetailTableViewCell.m */; };
 		C3D0A50619DEE65A0003D131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D0A50519DEE65A0003D131 /* main.m */; };
 		C3D0A50919DEE65A0003D131 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D0A50819DEE65A0003D131 /* AppDelegate.m */; };
 		C3D0A50C19DEE65A0003D131 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D0A50B19DEE65A0003D131 /* ViewController.m */; };
@@ -50,8 +49,6 @@
 		95A1E60C19DF0F5D00546B4C /* ic_vk_logo_nb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_vk_logo_nb@2x.png"; sourceTree = "<group>"; };
 		95A1E60F19DF147600546B4C /* GFSCUS1D.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GFSCUS1D.ttf; sourceTree = "<group>"; };
 		95A1E61319DF196B00546B4C /* thirteen_pixel_fonts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = thirteen_pixel_fonts.ttf; sourceTree = "<group>"; };
-		C35F962819E3FE1700129BAF /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
-		C35F962919E3FE1700129BAF /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
 		C3D0A50019DEE65A0003D131 /* myMessengerVK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMessengerVK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D0A50419DEE65A0003D131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3D0A50519DEE65A0003D131 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -125,8 +122,6 @@
 				952A75E719E1283A005D0301 /* ListMessengersViewController.m */,
 				952A761B19E2DCE4005D0301 /* DetailMessageViewController.h */,
 				952A761C19E2DCE4005D0301 /* DetailMessageViewController.m */,
-				C35F962819E3FE1700129BAF /* DetailTableViewCell.h */,
-				C35F962919E3FE1700129BAF /* DetailTableViewCell.m */,
 				952A75E219DFA3C6005D0301 /* User.h */,
 				952A75E319DFA3C6005D0301 /* User.m */,
 				C3D0A50D19DEE65A0003D131 /* Main.storyboard */,
@@ -314,7 +309,6 @@
 				952A761D19E2DCE4005D0301 /* DetailMessageViewController.m in Sources */,
 				C3D0A50919DEE65A0003D131 /* AppDelegate.m in Sources */,
 				C3D0A50619DEE65A0003D131 /* main.m in Sources */,
-				C35F962A19E3FE1700129BAF /* DetailTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

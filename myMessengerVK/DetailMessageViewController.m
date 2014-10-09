@@ -8,7 +8,6 @@
 
 #import "DetailMessageViewController.h"
 #import <VKSdk.h>
-#import "DetailTableViewCell.h"
 
 #define GREEN [UIColor colorWithRed:60.f/255.f green:180.f/255.f blue:15.f/255.f alpha:1.f];
 #define GREY [UIColor colorWithRed:160.f/255.f green:165.f/255.f blue:160.f/255.f alpha:1.f];
